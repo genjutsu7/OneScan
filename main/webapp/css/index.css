@@ -1,0 +1,152 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {	
+background: linear-gradient(129.96deg, #FF2F2F 10.43%, #000460 92.78%), radial-gradient(100% 246.94% at 100% 0%, #FFFFFF 0%, #020063 100%), linear-gradient(58.72deg, #2200F2 0%, #530000 100%), linear-gradient(154.03deg, #B70000 0%, #FF003D 74.04%), linear-gradient(341.1deg, #FF0000 7.52%, #0038FF 77.98%), linear-gradient(136.23deg, #00C2FF 11.12%, #FF0000 86.47%), radial-gradient(57.37% 100% at 50% 0%, #B50000 0%, #0034BB 100%);
+background-blend-mode: overlay, color-burn, screen, overlay, difference, difference, normal;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.navbar {
+	/*Controlling the list items*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 3%;
+	background:rgba(0, 0, 0, 0.936);
+	border-radius: 2px;
+	/* background: rgb(28, 27, 27); */
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+	color: rgb(255, 255, 255);
+	font-size: 42px;
+	font-weight: bolder;
+}
+
+.links {
+	list-style: none;
+}
+
+.links li {
+	display: inline-block;
+	font-size: 28px;
+	padding: 0px 5px;
+}
+
+.links li a {
+	color: rgb(255, 255, 255);
+	transition: all 0.3s ease 0s;
+}
+
+.links li a:hover {
+	transition: all 0.3s ease 0s;
+	color: aquamarine;
+}
+
+.profile {
+	padding-left: 44px;
+	cursor: pointer;
+    font-size: 22px;
+	justify-content: right;
+	color: rgb(255, 255, 255);
+	position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+    opacity: 85%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.profile:hover .dropdown-content {
+    display: block;
+}
+.body h2 {
+	margin-right: auto;
+	color: rgb(255, 255, 255);
+	font-size: 70px;
+	font-weight: bolder;
+	padding: 0px 3%;
+}
+
+.body h3 {
+	color: rgb(255, 255, 255);
+	font-size: 24px;
+	font-weight: bolder;
+	padding: 22px 3%;
+}
+
+.body {
+	/*Controlling the paragraphs location*/
+	padding: 10px;
+	margin-top: 100px;
+}
+
+.main-wrapper {
+	/*Upload Box modifier*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 150px;
+}
+
+.drag-area {
+	height: 120px;
+	width: 300px;
+	background: #ffffffe1;
+	border-radius: 6px;
+	/* Changes curve of the border*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.drag-area .icon {
+	font-size: 50px;
+	cursor: pointer;
+}
+
+#fileinput {
+	/*Hides input element*/
+	display: none;
+}
+
+#btn-text {
+	font-size: larger;
+	font-weight: bolder;
+}
+.logout-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.logout-btn .fa-arrow-right-from-bracket {
+    transition: color 0.5s ease;
+    color: white;
+
+}
+
+.logout-btn:hover .fa-arrow-right-from-bracket {
+    color: rgb(255, 0, 0);
+}
+
+
